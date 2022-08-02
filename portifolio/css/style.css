@@ -50,8 +50,21 @@ html {
 
 /* estrelas fundo */
 
-.stars_container{
+.stars_container {
     position: absolute;
+
+}
+
+.star1 img {
+    position: relative;
+    left: 2.5em;
+    top: .5em;
+}
+
+.star2 {
+    position: relative;
+    left: 3em;
+    top: 6.5em;
 }
 
 /* menu */
@@ -215,16 +228,18 @@ h3 {
     height: 3rem;
     background: #FF006E;
     border-color: #A20046;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.contact{
+.contact {
     display: flex;
     align-items: center;
-    justify-items: center; justify-content: center;
+    justify-items: center;
+    justify-content: center;
 }
 
-.email{
+.email {
     font-size: 1rem;
     font-weight: 400;
     text-decoration-line: underline;
@@ -265,6 +280,11 @@ h3 {
 /* responsividade */
 
 @media (max-width:425px) {
+
+    body {
+        margin: 5px 5% 50px 5%;
+    }
+
     #initial h2 {
         font-size: 5em;
     }
@@ -272,13 +292,42 @@ h3 {
     #initial h3 {
         font-size: 2em;
     }
-    .container{
-        display:inline;
+
+    .container {
+        display: inline;
     }
 
-     .name i{
+    .name i {
         display: none;
     }
+
+    .menu a {
+        line-height: 1.5em;
+    }
+
+    .stars_container {
+        left: -1em;
+    } 
+
+    .star1 {
+        width: 40%;
+        height: auto;
+    }
+
+    .star2 {
+        width: 40%;
+        height: auto;
+    }
+
+    .aboutme p {
+        margin: 1em 0 0 0;
+        font-size: 1em;
+    }
+
+    .email {
+        font-size: .3em;
+    }
+
 }
 
 @media (max-width:770px) {
@@ -296,6 +345,7 @@ h3 {
         width: 70%;
         height: auto;
     }
+    
 
 }
 
@@ -344,7 +394,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #392f5a;
+    background-color: #44289c;
     border-radius: .5rem;
 }
 
