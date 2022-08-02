@@ -3,21 +3,21 @@
 
 @font-face {
     font-family: 'heavy';
-    src: url('/font/jabjai_heavy.TTF') format('truetype');
+    src: url('../font/jabjai_heavy.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'light';
-    src: url(/font/jabjai_light.TTF) format('truetype');
+    src: url('../font/jabjai_light.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'face';
-    src: url(/font/Yagitudeh.otf) format('opentype');
+    src: url('../font/Yagitudeh.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,9 +43,15 @@ html {
     width: 100%;
     height: 0;
     background-color: var(--background);
-    margin-top: 50px;
+    margin-top: 25px;
     align-items: center;
     text-align: center;
+}
+
+/* estrelas fundo */
+
+.stars_container{
+    position: absolute;
 }
 
 /* menu */
@@ -102,7 +108,6 @@ summary {
 
 /* inicio */
 
-
 .title h2 {
     font-family: 'light', 'Poppins';
     font-size: 8rem;
@@ -154,11 +159,10 @@ summary {
 }
 
 .aboutme p {
-    margin: 15% 0 0 4rem;
+    margin: 1em 2em 1em 2em;
     text-align: center;
     line-height: 1.8em;
     font-size: 1.3em;
-    width: 85%;
     color: rgba(255, 255, 255, 0.404);
 }
 
