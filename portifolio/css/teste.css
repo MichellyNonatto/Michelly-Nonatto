@@ -1,0 +1,35 @@
+h1 {
+    box-shadow: .1em 0 0 0 #333;
+    margin: 2rem 1rem;
+    width: 23ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: caret .5s step-end infinite alternate, type 5s steps(23, end);
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50%{
+        box-shadow: .6em 0 0
+        transparent;
+    }
+}
+
+/* @use postcss-preset-env {
+    stage:0;
+    autoprefixer:{
+        grid:true;
+    }
+
+    browsers:[
+        "last 1 Chrome versions",
+        "last 1 Firefox versions",
+        "last 1 Safari versions",
+        "last 1 Edge versions"
+    ]
+} */
