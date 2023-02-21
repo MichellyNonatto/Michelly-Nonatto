@@ -1,0 +1,60 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    text-align: center;
+    padding: 5%;
+
+    width: auto;
+}
+
+.principal__imagem {
+    margin: auto;
+    width: 100%;
+    max-width: 63rem;
+}
+
+.principal__buttom {
+    margin: 1rem auto;
+}
+
+.principal__buttom i {
+    padding-right: .5rem;
+}
+
+.principal__link {
+    font-size: 1rem;
+    font-weight: 600;
+
+    border-radius: 2rem;
+
+    margin: auto 1rem;
+    padding: .5rem 1rem;
+
+    opacity: .8;
+    transition: all .5s;
+}
+
+.principal__link:hover {
+    opacity: 1;
+}
+
+.principal__link:nth-child(1) {
+    background: var(--azul-claro);
+}
+
+.principal__link:nth-child(2) {
+    background: var(--roxo-claro);
+    border-color: var(--roxo-escuro);
+}
+
+.inicio__descricao {
+    color: var(--cinza);
+    line-height: 2rem;
+    opacity: .5;
+
+    max-width: 44rem;
+    margin: auto;
+}

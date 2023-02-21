@@ -1,0 +1,44 @@
+.menu{
+    position: sticky;
+
+    background: #111111b6;
+
+    padding: 1.5rem 0;
+    top: 0;
+    width: 100%;
+
+    z-index: 1;
+}
+
+.menu__lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu__lista--conteudo {
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition: all .5s;
+}
+
+.menu__lista--conteudo:hover{
+    text-decoration: underline;
+    scale: .8;
+}
+
+.lista--contudo__link {
+    color: var(--branco);
+}
+
+@media screen and (min-width: 0px){
+    .menu__lista--conteudo {
+      margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu__lista--conteudo {
+      margin: 0;
+    }
+}

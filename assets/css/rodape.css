@@ -1,0 +1,8 @@
+.rodape{
+    text-align: center;
+    margin: 5% 1rem 0;
+}
+
+.rodape__texto strong{
+    color: var(--roxo-claro);
+}

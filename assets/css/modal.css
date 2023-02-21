@@ -1,0 +1,60 @@
+.modal {
+    display: flex;
+    gap: 1rem;
+    background:  var(--amarelo-opaco);
+    border-radius: 16px 0px 0px 16px;
+    position: fixed;
+
+    width: 50vw;
+    height: 15vh;
+    max-height: 200px;
+
+    left: 100%;
+    top: 85%;
+
+    z-index: 1;
+}
+
+.modal.active{
+    left: 50%;
+    transition: 1s ease-in-out;
+}
+
+.modal *{
+    color: var(--preto-opaco);
+}
+
+.modal__container {
+    padding: 1rem;
+}
+
+.modal__container:nth-child(1) {
+    background-color: var(--amarelo);
+    border-radius: 16px 0px 0px 16px;
+
+    opacity: .8;
+}
+
+.modal__container:nth-child(2){
+    width: 100%;
+}
+
+.modal__icone {
+    font-size: 1.5rem;
+}
+
+.modal__menssagem {
+    margin-bottom: 1rem;
+}
+
+.modal__botao {
+    background: var(--amarelo);
+    border: 5px var(---amarelo) solid;
+    border-radius: 5px;
+
+    padding: .2rem .5rem;
+}
+
+@keyframes modal__animacao {
+    
+}
