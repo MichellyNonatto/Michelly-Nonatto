@@ -1,0 +1,50 @@
+.reconhecimento {
+    width: 100%;
+    margin-top: 5rem;
+
+}
+
+.reconhecimento__container:nth-child(2){
+    text-align: center;
+}
+
+.reconhecimento__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    margin-bottom: 2rem;
+}
+
+.reconhecimento__texto {
+    line-height: 2rem;
+}
+
+.reconhecimento__imagem {
+    width: 100%;
+    max-width: 20rem;
+}
+
+@media screen and (min-width: 0px) {
+    .reconhecimento {
+        display: block;
+    }
+
+    .reconhecimento__container {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .reconhecimento {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .reconhecimento__container {
+        width: 45%;
+    }
+
+}

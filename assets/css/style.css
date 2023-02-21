@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('./estilização/menu.css');
+@import url('./estilização/inicio.css');
+@import url('./estilização/sobre.css');
+@import url('./estilização/reconhecimento.css');
+@import url('./estilização/projetos.css');
+@import url('./estilização/skills.css');
+@import url('./rodape.css');
+
+@import url('./modal.css');
+
+@font-face {
+    font-family: 'light';
+    src: url('../font/jabjai_light.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../font/jabjai_heavy.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'face';
+    src: url('../font/Yagitudeh.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fonte-principal: 'Poppins', sans-serif;
+
+    --background: #111111;
+
+    --branco: #fff;
+    --preto: #000;
+    --preto-opaco: #212121;
+    --cinza: #eee;
+    --roxo-claro: #BC00DD;
+    --roxo-escuro: #470054;
+    --azul-claro: #0085EB;
+    --azul-escuro: #004173;
+    --amarelo-opaco: #FFD766;
+    --amarelo: #EFD81D;
+    --verdo-escuro: #3F7509;
+    --verde-claro: #73AC5E;
+}
+
+*{
+    font-size: 1rem;
+    color: var(--branco);
+}
+
+html{
+    background-color: var(--background);
+    font-family: var(--fonte-principal);
+
+    margin: 0 5%;
+
+    scroll-behavior: smooth;
+}
+
+hr {
+    opacity: .1;
+}
+
+@media screen and (min-width: 0px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    html{
+        font-size: 32px;
+    }
+}
+
+/* Barra de rolagem personalizada*/
+::-webkit-scrollbar {
+    width: 1px;
+    background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cinza);
+}

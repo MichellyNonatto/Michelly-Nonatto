@@ -1,0 +1,86 @@
+.sobre{
+    text-align: center;
+
+    margin-top: 3rem;
+}
+
+.sobre__titulo {
+    font-family: 'face', 'Poppins';
+    font-size: 2.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+.sobre__imagem {
+    min-width: 23rem;
+}
+
+.sobre__imagem img{
+    width: 100%;
+} 
+
+.sobre__descricao-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.sobre__descricao-subtitulo{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.sobre__descricao-texto{
+    line-height: 1.5rem;
+    
+    margin: 1.5rem auto
+}
+
+.sobre__botao .sobre__botao-btn{
+    font-size: 1rem;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 2rem;
+
+    margin: auto 1rem;
+    padding: .5rem 1rem;
+
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+}
+
+.sobre__botao .sobre__botao-btn:hover {
+    opacity: 1;
+}
+
+.sobre__botao .sobre__botao-btn{
+    background: var(--azul-claro);
+}
+
+.sobre__botao-link .sobre__botao-btn {
+    background: var(--roxo-claro);
+}
+
+.sobre__botao-btn i{
+    padding-right: .5rem;
+}
+
+@media screen and (min-width: 0px){
+    .sobre__container {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__container {
+        display: flex;
+        align-items: center;
+    }
+
+    .sobre__descricao {
+        text-align: left;
+    }
+}
