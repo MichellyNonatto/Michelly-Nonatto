@@ -34,6 +34,7 @@
 
 .projetos__lista-conteudo img{
     width: fit-content;
+    max-width: 90%;
 }
 
 .projetos__lista-conteudo p{
